@@ -1,7 +1,7 @@
 import React from "react";
 import { Badge, badgeVariants } from "@/components/ui/badge";
 import { Link } from "lucide-react";
-import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
 import { RiMailLine } from "react-icons/ri";
 import { CiLocationOn } from "react-icons/ci";
@@ -36,20 +36,16 @@ const footer = () => {
         </div>
         <div className="flex flex-col ml-16 mt-7 ">
           <div className="flex flex-row">
-            <Badge>
-              Facebook <FaArrowRight className="ml-1" />
-            </Badge>
+            <Badge>{/* Facebook <FaArrowRight className="ml-1" /> */}</Badge>
 
             <Badge className="ml-4">
-              Instagram <FaArrowRight className="ml-1" />{" "}
+              {/* Instagram <FaArrowRight className="ml-1" />{" "} */}
             </Badge>
           </div>
           <div className="flex flex-row pt-3">
-            <Badge>
-              LinkedIn <FaArrowRight className="ml-1" />
-            </Badge>
+            <Badge>{/* LinkedIn <FaArrowRight className="ml-1" /> */}</Badge>
             <Badge className="ml-6">
-              Behance <FaArrowRight className="ml-1" />
+              {/* Behance <FaArrowRight className="ml-1" /> */}
             </Badge>
           </div>
         </div>
