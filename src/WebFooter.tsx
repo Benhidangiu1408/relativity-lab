@@ -2,9 +2,9 @@ import React from "react";
 import { Badge, badgeVariants } from "@/components/ui/badge";
 import { Link } from "lucide-react";
 // import { FaArrowRight } from "react-icons/fa";
-import { FiPhone } from "react-icons/fi";
-import { RiMailLine } from "react-icons/ri";
-import { CiLocationOn } from "react-icons/ci";
+// import { FiPhone } from "react-icons/fi";
+// import { RiMailLine } from "react-icons/ri";
+// import { CiLocationOn } from "react-icons/ci";
 const footer = () => {
   return (
     <div className="pl-20 bg-blue-950 text-zinc-50">
@@ -12,17 +12,17 @@ const footer = () => {
       <div className="flex flex-row pt-5 ">
         <div className="flex flex-col w-2/5 ">
           <div className="flex flex-row">
-            <FiPhone className="" />
+            {/* <FiPhone className="" /> */}
             <div className="text-left pl-3">0123456789</div>
           </div>
 
           <div className="flex flex-row">
-            <RiMailLine />
+            {/* <RiMailLine /> */}
             <div className="text-left pl-3">Relativitylabs@gmail.com</div>
           </div>
 
           <div className="flex flex-row">
-            <CiLocationOn size={40} />
+            {/* <CiLocationOn size={40} /> */}
             <div className="text-left pl-3">
               Phương Nam Book City, 212 Đ. Nguyễn Trãi, Phường Phạm Ngũ Lão,
               Quận 1, Hồ Chí Minh, Vietnam
